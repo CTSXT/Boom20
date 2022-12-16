@@ -10,7 +10,7 @@ window.addEventListener("DOMContentLoaded", () => {
   .then((data) => pokemons=data;);
   pokemons.forEach(elem=>{
   let li=document.createElement('li');
-    li.innerHTML =elem;
+    li.innerText =elem;
     ul.appendChild(li); 
   })
   
